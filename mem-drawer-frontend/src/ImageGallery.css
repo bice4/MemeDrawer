@@ -1,0 +1,11 @@
+.image-hover-zoom {
+  transition: transform 0.25s ease;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.image-hover-zoom:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
